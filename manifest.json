@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Simplify Text - 5th Grade Level",
+  "version": "1.0",
+  "description": "Rewrite selected text to 5th grade reading level",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
