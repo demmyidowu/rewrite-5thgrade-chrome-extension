@@ -77,15 +77,18 @@ The extension uses OpenAI's GPT-3.5-turbo model to rewrite text at a 5th grade r
 ## Troubleshooting
 
 **Extension won't load:**
+
 - Make sure all files are in the same directory
 - Check that Developer Mode is enabled in Chrome extensions
 
 **API errors:**
+
 - Verify your OpenAI API key is correct and has credits
 - Check your internet connection
 - Ensure you haven't exceeded OpenAI's rate limits
 
 **Text won't simplify:**
+
 - Make sure you've saved your API key in the extension settings
 - Try selecting smaller amounts of text
 - Check that the selected text contains actual content
@@ -93,7 +96,3 @@ The extension uses OpenAI's GPT-3.5-turbo model to rewrite text at a 5th grade r
 ## Contributing
 
 Feel free to submit issues, feature requests, or pull requests to improve this extension.
-
-## License
-
-This project is open source and available under the MIT License.
